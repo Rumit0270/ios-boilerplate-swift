@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.otf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="UserTableViewCell" customModule="ios_SwiftBoilerplate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kd4-yy-xj3" userLabel="user view">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbz-rc-JAp" userLabel="name label">
+                                <rect key="frame" x="10" y="0.0" width="300" height="23"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fO-XF-wkA" userLabel="email label">
+                                <rect key="frame" x="10" y="23" width="300" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTY-BN-TZ9" userLabel="phone label">
+                                <rect key="frame" x="10" y="46.5" width="300" height="23"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HTY-BN-TZ9" secondAttribute="trailing" constant="10" id="00V-8s-22E"/>
+                            <constraint firstItem="HTY-BN-TZ9" firstAttribute="height" secondItem="dbz-rc-JAp" secondAttribute="height" id="0n3-gf-OJa"/>
+                            <constraint firstItem="0fO-XF-wkA" firstAttribute="height" secondItem="dbz-rc-JAp" secondAttribute="height" id="CbN-em-owg"/>
+                            <constraint firstItem="HTY-BN-TZ9" firstAttribute="leading" secondItem="Kd4-yy-xj3" secondAttribute="leading" constant="10" id="KO2-Oq-Ia4"/>
+                            <constraint firstItem="dbz-rc-JAp" firstAttribute="top" secondItem="Kd4-yy-xj3" secondAttribute="top" id="QCq-n9-vSm"/>
+                            <constraint firstAttribute="bottom" secondItem="HTY-BN-TZ9" secondAttribute="bottom" id="RTh-PB-aad"/>
+                            <constraint firstItem="0fO-XF-wkA" firstAttribute="leading" secondItem="Kd4-yy-xj3" secondAttribute="leading" constant="10" id="Rc0-jk-Leo"/>
+                            <constraint firstItem="HTY-BN-TZ9" firstAttribute="width" secondItem="dbz-rc-JAp" secondAttribute="width" id="ZRX-bR-nxq"/>
+                            <constraint firstItem="0fO-XF-wkA" firstAttribute="top" secondItem="dbz-rc-JAp" secondAttribute="bottom" id="bhK-D6-Kaz"/>
+                            <constraint firstItem="dbz-rc-JAp" firstAttribute="leading" secondItem="Kd4-yy-xj3" secondAttribute="leading" constant="10" id="kEP-Fc-9Uc"/>
+                            <constraint firstAttribute="trailing" secondItem="0fO-XF-wkA" secondAttribute="trailing" constant="10" id="ph6-GW-BXd"/>
+                            <constraint firstItem="0fO-XF-wkA" firstAttribute="width" secondItem="dbz-rc-JAp" secondAttribute="width" id="t7m-Xf-jFb"/>
+                            <constraint firstAttribute="trailing" secondItem="dbz-rc-JAp" secondAttribute="trailing" constant="10" id="uka-gE-BvH"/>
+                            <constraint firstItem="HTY-BN-TZ9" firstAttribute="top" secondItem="0fO-XF-wkA" secondAttribute="bottom" id="z1V-z7-Xwg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Kd4-yy-xj3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Dna-rU-N42"/>
+                    <constraint firstItem="Kd4-yy-xj3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="F8Y-0a-Z78"/>
+                    <constraint firstAttribute="bottom" secondItem="Kd4-yy-xj3" secondAttribute="bottom" id="QVU-tt-dny"/>
+                    <constraint firstAttribute="trailing" secondItem="Kd4-yy-xj3" secondAttribute="trailing" id="QjS-is-wmo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="emailLabel" destination="0fO-XF-wkA" id="WDG-RP-1fK"/>
+                <outlet property="nameLabel" destination="dbz-rc-JAp" id="58c-Kl-zeO"/>
+                <outlet property="phoneLabel" destination="HTY-BN-TZ9" id="QWn-ci-vwJ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

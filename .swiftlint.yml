@@ -1,0 +1,57 @@
+# rule identifiers to exclude from running
+disabled_rules:
+  - line_length
+  - identifier_name
+  - cyclomatic_complexity
+  - implicit_getter
+  - file_length
+  - type_name
+  - trailing_whitespace
+  - empty_count
+#  - class_delegate_protocol
+  - type_body_length
+# - force_cast
+#  - weak_delegate
+
+force_cast: warning
+
+opt_in_rules:
+  - empty_string
+
+excluded:
+  - Carthage
+  - Pods
+  - Pods/*/
+  - SwiftLint/Common/3rdPartyLib
+  - R.generated.swift
+
+line_length:
+  warning: 150
+  error: 200
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_urls: true
+
+function_body_length:
+  warning: 300
+  error: 500
+
+function_parameter_count:
+  warning: 6
+  error: 8
+
+type_body_length:
+  warning: 300
+  error: 500
+
+file_length:
+  warning: 1000
+  error: 1500
+  ignore_comment_only_lines: true
+
+cyclomatic_complexity:
+  warning: 15
+  error: 25
+  
+reporter: "xcode"
+

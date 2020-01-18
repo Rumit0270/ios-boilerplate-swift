@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  ios-SwiftBoilerplate
+
+  Created by Mac on 1/7/20.
+*/
+
+/// Embed all your strings here.
+"APP_NAME" = "ios-SwiftBoilerplate";
+"OK"       = "OK";
