@@ -34,6 +34,7 @@ class BaseViewController: UIViewController {
     
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        AppNavigator.shared.setRootNavController(for: self)
         view.backgroundColor = ColorConstants.mainBackgroundColor
         view.bringSubviewToFront(mainLoader)
         setNeedsStatusBarAppearanceUpdate()

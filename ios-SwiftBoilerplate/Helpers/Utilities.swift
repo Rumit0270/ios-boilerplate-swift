@@ -34,6 +34,11 @@ public func mainQueue(_ block: @escaping () -> Void) {
     DispatchQueue.main.async(execute: block)
 }
 
+public func backgroundQueue(_ block: @escaping () -> Void) {
+    let dispatchQueue = DispatchQueue(label: "background", qos: .background)
+    dispatchQueue.async(execute: block)
+}
+
 /// Print JSON data from an object.
 public func printJSON(_ object: [String: AnyObject]) {
     do {
@@ -43,5 +48,19 @@ public func printJSON(_ object: [String: AnyObject]) {
         }
     } catch let error {
         logger.error("Error parsing JSON: \(error)")
+    }
+}
+
+/// Reads a JSON file and returns its JSON representation.
+public func getDataFromJSON(filename: String) -> Data {
+    guard let path = Bundle.main.path(forResource: filename, ofType: "json") else {
+        return Data()
+    }
+    do {
+        let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+        return data
+    } catch {
+        logger.error("Error reading file \(filename).json")
+        return Data()
     }
 }

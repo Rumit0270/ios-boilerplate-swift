@@ -170,7 +170,6 @@ extension Navigator {
     
     /// Use to set the UINavigationController instantiated from Storyboard
     /// as the root view controller of the current Navigator.
-    /// Make sure the method is called in viewDidLoad.
     func setRootNavController(for viewController: BaseViewController) {
         if let navController = viewController.navigationController as? BaseNavigationController {
             rootViewController = navController
