@@ -65,6 +65,7 @@
 		04CEDBE323D3037A009FD7E1 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE223D3037A009FD7E1 /* UserViewModel.swift */; };
 		04CEDBE523D3038D009FD7E1 /* UserResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE423D3038D009FD7E1 /* UserResource.swift */; };
 		04CEDBE723D3051C009FD7E1 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE623D3051C009FD7E1 /* UserService.swift */; };
+		04F88BCA23EEAEEA008CEE4D /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BC923EEAEEA008CEE4D /* PlistReader.swift */; };
 		EB6FD599812C5E6B2BC6DDC6 /* Pods_ios_SwiftBoilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		04CEDBE223D3037A009FD7E1 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		04CEDBE423D3038D009FD7E1 /* UserResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResource.swift; sourceTree = "<group>"; };
 		04CEDBE623D3051C009FD7E1 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		04F88BC923EEAEEA008CEE4D /* PlistReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
 		252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_SwiftBoilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2882105D970A51E5376134CE /* Pods-ios-SwiftBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		FE19CBDB1A0CB034F7292A16 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 				0422D08623C5E8F300211F9E /* AppNavigator.swift */,
 				0422D09023C6DD0A00211F9E /* Logger.swift */,
 				0422D0D123C7427D00211F9E /* KeyChainHandler.swift */,
+				04F88BC923EEAEEA008CEE4D /* PlistReader.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -599,6 +602,7 @@
 				0422D05B23C4326100211F9E /* Utilities.swift in Sources */,
 				04CEDBE723D3051C009FD7E1 /* UserService.swift in Sources */,
 				04CEDBE523D3038D009FD7E1 /* UserResource.swift in Sources */,
+				04F88BCA23EEAEEA008CEE4D /* PlistReader.swift in Sources */,
 				0422D05023C31AA300211F9E /* BaseAPIService.swift in Sources */,
 				0422D15623D060A500211F9E /* AppButton.swift in Sources */,
 			);

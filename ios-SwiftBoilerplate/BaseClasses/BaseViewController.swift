@@ -22,15 +22,6 @@ class BaseViewController: UIViewController {
         mainLoader.mode = MBProgressHUDMode.indeterminate
         mainLoader.dimBackground = true
         return mainLoader
-         //Configure additional loader configuration
-//        // Partially see-through bezel
-//        mainLoader.bezelView.color = .white
-//        mainLoader.bezelView.style = .blur
-//
-//        // Dim background
-//        mainLoader.backgroundView.color = .clear
-//        mainLoader.backgroundView.style = .blur
-//        return mainLoader
     }()
     
     override public func viewDidLoad() {
