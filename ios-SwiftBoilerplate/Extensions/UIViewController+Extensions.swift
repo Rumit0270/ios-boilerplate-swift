@@ -79,9 +79,17 @@ public extension UIViewController {
 /// https://www.swiftbysundell.com/basics/child-view-controllers
 extension UIViewController {
     
+    /// Add VC to the main view of Container VC
     func addVC(_ child: UIViewController) {
         addChild(child)
         view.addSubview(child.view)
+        child.didMove(toParent: self)
+    }
+
+    /// Add VC to the specified view of Container VC
+    func addVC(_ child: UIViewController, in containerView: UIView) {
+        addChild(child)
+        containerView.addSubview(child.view)
         child.didMove(toParent: self)
     }
     

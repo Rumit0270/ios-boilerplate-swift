@@ -66,6 +66,8 @@
 		04CEDBE523D3038D009FD7E1 /* UserResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE423D3038D009FD7E1 /* UserResource.swift */; };
 		04CEDBE723D3051C009FD7E1 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEDBE623D3051C009FD7E1 /* UserService.swift */; };
 		04F88BCA23EEAEEA008CEE4D /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BC923EEAEEA008CEE4D /* PlistReader.swift */; };
+		04F88BCC23EEB12B008CEE4D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCB23EEB12B008CEE4D /* String+Extensions.swift */; };
+		04F88BCE23EEB14D008CEE4D /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCD23EEB14D008CEE4D /* Collection+Extensions.swift */; };
 		EB6FD599812C5E6B2BC6DDC6 /* Pods_ios_SwiftBoilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +133,8 @@
 		04CEDBE423D3038D009FD7E1 /* UserResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResource.swift; sourceTree = "<group>"; };
 		04CEDBE623D3051C009FD7E1 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		04F88BC923EEAEEA008CEE4D /* PlistReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
+		04F88BCB23EEB12B008CEE4D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		04F88BCD23EEB14D008CEE4D /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
 		252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_SwiftBoilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2882105D970A51E5376134CE /* Pods-ios-SwiftBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		FE19CBDB1A0CB034F7292A16 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -271,6 +275,8 @@
 				0422D15123CF23B600211F9E /* UIView+Extensions.swift */,
 				04CEDBDA23D2FCB2009FD7E1 /* UILabel+Extensions.swift */,
 				04CEDBE023D2FD79009FD7E1 /* UITableView+Extensions.swift */,
+				04F88BCB23EEB12B008CEE4D /* String+Extensions.swift */,
+				04F88BCD23EEB14D008CEE4D /* Collection+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -580,6 +586,7 @@
 				0423112123D30E6000DF0873 /* UserTableViewCell.swift in Sources */,
 				0422D07923C5A03100211F9E /* UIViewController+Extensions.swift in Sources */,
 				0422D10323CC627F00211F9E /* UIColor+Extensions.swift in Sources */,
+				04F88BCC23EEB12B008CEE4D /* String+Extensions.swift in Sources */,
 				0422D15223CF23B700211F9E /* UIView+Extensions.swift in Sources */,
 				04CEDBDD23D2FD30009FD7E1 /* NibLoadableView.swift in Sources */,
 				0422D08023C5E53D00211F9E /* UserViewController.swift in Sources */,
@@ -587,6 +594,7 @@
 				0422D0FE23CC1C7A00211F9E /* Auth.swift in Sources */,
 				04CEDBDB23D2FCB2009FD7E1 /* UILabel+Extensions.swift in Sources */,
 				0422D06023C4942700211F9E /* Constants.swift in Sources */,
+				04F88BCE23EEB14D008CEE4D /* Collection+Extensions.swift in Sources */,
 				0422D13A23CEBCF700211F9E /* Double+Extensions.swift in Sources */,
 				0422D14123CEE13B00211F9E /* ColorConstants.swift in Sources */,
 				0422D13C23CED0F900211F9E /* Date+Extensions.swift in Sources */,
