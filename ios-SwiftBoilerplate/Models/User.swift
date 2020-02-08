@@ -12,27 +12,30 @@ struct User: Codable {
     let name: String
     let username: String
     let email: String
-    let address: Address
     let phone: String
     let website: String
-    let company: Company
+    var company: Company? = nil
+    
+    init(with object: UserObject) {
+        self.name = object.name
+        self.username = object.username
+        self.email = object.email
+        self.phone = object.phone
+        self.website = object.website
+        if let aCompany = object.company {
+            self.company = Company(with: aCompany)
+        }
+    }
 }
 
 struct Company: Codable {
     let name: String
     let catchPhrase: String
     let bs: String
-}
-
-struct Geo: Codable {
-    let lat: String
-    let lng: String
-}
-
-struct Address: Codable {
-    let street: String
-    let suite: String
-    let city: String
-    let zipcode: String
-    let geo: Geo
+    
+    init(with object: CompanyObject) {
+        self.name = object.name
+        self.catchPhrase = object.catchPhrase
+        self.bs = object.bs
+    }
 }

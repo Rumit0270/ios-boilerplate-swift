@@ -8,3 +8,4 @@
 /// Embed all your strings here.
 "APP_NAME" = "ios-SwiftBoilerplate";
 "OK"       = "OK";
+"USERVC_NAV_TITLE" = "Users";

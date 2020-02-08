@@ -69,6 +69,7 @@
 		04F88BCC23EEB12B008CEE4D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCB23EEB12B008CEE4D /* String+Extensions.swift */; };
 		04F88BCE23EEB14D008CEE4D /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCD23EEB14D008CEE4D /* Collection+Extensions.swift */; };
 		04F88BD023EEB396008CEE4D /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCF23EEB396008CEE4D /* RealmHelper.swift */; };
+		04F88BD323EEB45F008CEE4D /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BD223EEB45F008CEE4D /* UserObject.swift */; };
 		EB6FD599812C5E6B2BC6DDC6 /* Pods_ios_SwiftBoilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -137,6 +138,7 @@
 		04F88BCB23EEB12B008CEE4D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		04F88BCD23EEB14D008CEE4D /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
 		04F88BCF23EEB396008CEE4D /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		04F88BD223EEB45F008CEE4D /* UserObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_SwiftBoilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2882105D970A51E5376134CE /* Pods-ios-SwiftBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		FE19CBDB1A0CB034F7292A16 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		0422D00123BD9BC600211F9E /* ios-SwiftBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				04F88BD123EEB44A008CEE4D /* Objects */,
 				0423111D23D30E2700DF0873 /* Cells */,
 				0422D10E23CD7B4600211F9E /* Resources */,
 				0422D07123C59A4800211F9E /* Protocols */,
@@ -395,6 +398,14 @@
 			path = UserTableViewCell;
 			sourceTree = "<group>";
 		};
+		04F88BD123EEB44A008CEE4D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				04F88BD223EEB45F008CEE4D /* UserObject.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		C6307C9AD23574A09E71DEAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +586,7 @@
 				0422D06423C4959700211F9E /* EndpointsConstants.swift in Sources */,
 				0422D04E23C3183F00211F9E /* TargetType+Extensions.swift in Sources */,
 				0422D05523C33F5900211F9E /* BaseNavigationController.swift in Sources */,
+				04F88BD323EEB45F008CEE4D /* UserObject.swift in Sources */,
 				0422D06223C494AF00211F9E /* AppConfig.swift in Sources */,
 				0422D09123C6DD0A00211F9E /* Logger.swift in Sources */,
 				04CEDBDF23D2FD50009FD7E1 /* ReusableView.swift in Sources */,

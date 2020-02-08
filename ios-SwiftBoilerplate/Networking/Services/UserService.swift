@@ -11,12 +11,18 @@ class UserService: BaseAPIService<UserResource> {
     
     static let sharedInstance = UserService()
     
-    func fetchUsers(success: @escaping ([User]) -> Void,
-                    failure: @escaping (_ error: Error) -> Void) {
+    func fetchUsers(success: @escaping () -> Void,
+                    failure: @escaping (Error?) -> Void) {
         request(for: .fetchUsers, onSuccess: { (users: [User], _) in
-            success(users)
-        }) { (error, moyaResponse) in
+            
+            var userObjects: [UserObject] = []
+            for user in users {
+                userObjects.append(UserObject(with: user))
+            }
+            
+            RealmHelper.saveOrUpdateObjects(objects: userObjects, onSuccess: success, onFailure: failure)
+        }, onFailure: { (error, _) in
             failure(error)
-        }
+        })
     }
 }

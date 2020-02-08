@@ -12,6 +12,8 @@ class UserViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    private final let TABLE_VIEW_ROW_HEIGHT = 100
+    
     let userViewModel = UserViewModel()
     var users: [User] = [] {
         didSet {
@@ -22,15 +24,12 @@ class UserViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        AppNavigator.shared.setRootNavController(for: self)
-        navigationWithTitle("Users")
-        
+        navigationWithTitle(localizedString("USERVC_NAV_TITLE"))
         userViewModel.users.bind { [weak self] (users) in
             guard let self = self else { return }
             self.users = users
-            self.showLoader(show: false)
         }
-        showLoader(show: true)
+        userViewModel.setUsers()
         userViewModel.fetchUsers()
         configureTableView()
     }
@@ -63,7 +62,7 @@ extension UserViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return CGFloat(TABLE_VIEW_ROW_HEIGHT)
     }
     
 }

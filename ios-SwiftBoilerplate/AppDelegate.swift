@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         customizeTabBarItems()
         configureDefaultRealm()
+        logReamFileURL()
         return true
     }
     
