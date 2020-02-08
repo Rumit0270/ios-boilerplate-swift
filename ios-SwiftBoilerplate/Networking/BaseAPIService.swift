@@ -105,6 +105,13 @@ public class BaseAPIService<T>: APIService where T: TargetType {
     
     public required init() {}
     
+    init(mock: Bool = false) {
+        if mock {
+            sharedProvider = MoyaProvider<T>(stubClosure: MoyaProvider.immediatelyStub)
+            sharedAuthProvider = MoyaProvider<Auth>(stubClosure: MoyaProvider.immediatelyStub)
+        }
+    }
+    
     /**
      Makes a request to the provided target and tries to decode its response
      using the provided keyPath and return type and returning it on the onSuccess callback.
@@ -187,7 +194,7 @@ public class BaseAPIService<T>: APIService where T: TargetType {
                                                          failsOnEmptyData: false)
             onSuccess(decodedresult, filteredResponse)
         } catch let error {
-            self.handleError(with: error)
+            self.handleError(with: error, onFailure)
         }
     }
     
