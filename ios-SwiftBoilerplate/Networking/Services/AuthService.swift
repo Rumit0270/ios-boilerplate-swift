@@ -38,11 +38,11 @@ class AuthService: BaseAPIService<Auth> {
             } catch {
                 failure()
             }
-        }) { (error, response) in
+        }, onFailure: { (error, response) in
             logger.error("Error logging in: \(error).")
             logger.error("Failure response is: \(String(describing: response))")
             failure()
-        }
+        })
         
     }
     

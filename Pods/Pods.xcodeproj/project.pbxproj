@@ -187,6 +187,7 @@
 		5DBFB9A0499F04CBE806486211A4ABD0 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD2516E36434EE7DE43C4C21528598 /* SnapKit-dummy.m */; };
 		5F9C606B3BD1513683DCD968D368AE9B /* RLMSyncSubscription.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43399544194C17BCE60E98E546052A35 /* RLMSyncSubscription.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"4.3.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		60559C2259D8D2A053C9E8DC2DD0B005 /* DTTimePeriodGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D69B8C9B2A08B8EC6EF3700E1EFC1A /* DTTimePeriodGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60876A201F991CF8E27C0E4215FFD709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910B975A59D3D1712A185B7BFEB3BFB /* Foundation.framework */; };
 		610954B61008305CA5BEA66EC60A4276 /* ObjcExceptionBridging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BDECE3387088D8B0A677C959F01E26 /* ObjcExceptionBridging-dummy.m */; };
 		615BB4C1722E9019DB212D73FACE7780 /* RLMSyncCredentials.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = EC2610712ADC10A08B869D009AEC34E7 /* RLMSyncCredentials.h */; };
 		63A047238792804F506E0FBCE39F78FF /* RLMSyncUtil_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = B1476003FD5931879373FCC7223CE41F /* RLMSyncUtil_Private.h */; };
@@ -247,6 +248,7 @@
 		80B8A3485C4803D8A17ED23FAECE11B4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B6008193DADB6215E81058522081B5 /* Image.swift */; };
 		81393B44411A35759E116B55637E9AC2 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E9E5448F23FC5B9F53A76291E82943 /* IQKeyboardReturnKeyHandler.swift */; };
 		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EA8B39C229E0A1E000A57344ECB618 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8291FB6A182611CCD2C4B0072FFD6E3C /* Pods-ios-SwiftBoilerplateMockTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6859F5730D74A1B34F8ACFAE2346B0 /* Pods-ios-SwiftBoilerplateMockTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		833F08FCFFEB5655316F591B65BE0745 /* R.swift.Library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC77B308C68BDD7B9D51579DB078015 /* R.swift.Library-dummy.m */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490C3B4CF4AD9CD26EDD5B25A50D86D /* AFError.swift */; };
 		839CEC4CF9173A02BD3A1602A1F7B116 /* DTTimePeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CDF2644137512A1ACDA09F66E29A0D /* DTTimePeriod.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -353,7 +355,7 @@
 		C86FCD2794F4BAFB18E8CF0F7E1964E0 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F4C2132058E695D72FAB2A318A8A22 /* DTTimePeriodGroup.m */; };
 		C900AF92B70CCC35CF46BE3DEF231564 /* RLMListBase.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 19DED034D3B3E72DD6B26854E22BE002 /* RLMListBase.h */; };
 		C92D3D665E60A3DE8D22688C326E13B1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A0044B41EC908358EC71AD3FB7BF0 /* Response.swift */; };
-		C9B7FCB4FFF7CA99524415A4087FA810 /* Pods-ios-SwiftBoilerplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D342B386460DFB6CA4FBFDB4743510 /* Pods-ios-SwiftBoilerplate-dummy.m */; };
+		C9B7FCB4FFF7CA99524415A4087FA810 /* Pods-ios-SwiftBoilerplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AC95F00A261B960142691E52AA4668 /* Pods-ios-SwiftBoilerplate-dummy.m */; };
 		C9C516BB9CA1FBAC6D2CCA14D012E4B6 /* MoyaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4DBEE1C695AE141816CB9B97459EC /* MoyaError.swift */; };
 		CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4C5CDE81D6040DFEC3E052B9D7A7B /* ConstraintItem.swift */; };
 		CA784FB6D280003577399FC6357DF9E5 /* RLMRealm_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 0D0CD9B531F3340E72F38963412DBAD5 /* RLMRealm_Private.h */; };
@@ -406,6 +408,7 @@
 		E6A59169AB160B828757961CC391334C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1CA97A5E7836FD757C904DC6945439 /* List.swift */; };
 		E7556BFBFF44011BBAAD3DB117345BA7 /* LocksmithAccessibleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5DCB76DA473151159C5B177593453 /* LocksmithAccessibleOption.swift */; };
 		E83D2896CD2930EB85C3343E33752B47 /* RLMResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D7BBA313DED9F7A31444473B3D14DC7 /* RLMResults.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"4.3.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
+		E850B8B1843445D645EF52C53A917682 /* Pods-ios-SwiftBoilerplateMockTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C0F479F2E503F33B0756C364293CF3 /* Pods-ios-SwiftBoilerplateMockTests-dummy.m */; };
 		E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDDCC35FD9872E5F6EE022D0A5ED36 /* ConstraintRelatableTarget.swift */; };
 		E86D8832748742483DB3FB4D43798AB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910B975A59D3D1712A185B7BFEB3BFB /* Foundation.framework */; };
 		E8A754B37F44784D8B78A872DE6B2C92 /* Realm.h in Headers */ = {isa = PBXBuildFile; fileRef = 35955FBDAD3F7CBEE2C1C2C43D39B470 /* Realm.h */; };
@@ -438,7 +441,7 @@
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3427CE935903C90BF0C306BC3D845EB /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7C4C0980A7CD46EDCAAF366A722FFCD /* RLMRealm+Sync.mm in Sources */ = {isa = PBXBuildFile; fileRef = 749060EDF07AAAF635679760BA40D4FC /* RLMRealm+Sync.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"4.3.1\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		F8116420B37CA79D3BFACFFA8B4E4A15 /* RLMSyncConfiguration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 6E5A3A37ACFF737BA3BEBB992055DE25 /* RLMSyncConfiguration.h */; };
-		F8E38579C52046158AEA91BA9D2590F2 /* Pods-ios-SwiftBoilerplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 649FA53560A4F8278EDD485C996C12A1 /* Pods-ios-SwiftBoilerplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E38579C52046158AEA91BA9D2590F2 /* Pods-ios-SwiftBoilerplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 723BD25C19AB36A6ED965D163735A1C7 /* Pods-ios-SwiftBoilerplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F92BD30DFB4218BCD136C73A3EE04927 /* RLMRealm_Dynamic.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 5E0E5419AD0C63727B2BE2B9ED637C14 /* RLMRealm_Dynamic.h */; };
 		F9CEDE306E79AB2DFD9744ECD1DAE87A /* RLMSyncConfiguration_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = BF35C8C59E563EB565D88EF315CD6447 /* RLMSyncConfiguration_Private.h */; };
 		FAEBBCE3F11A1EFB9FD5FFDA17A6283D /* Base64LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AB22BAC629A43B818E00D53DB7A93 /* Base64LogFormatter.swift */; };
@@ -595,6 +598,13 @@
 			remoteGlobalIDString = 746615E9A06AABA6F288B49A10B63E10;
 			remoteInfo = ObjcExceptionBridging;
 		};
+		F00075AB4F5B51CD2591B3C4F4E29B92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5CA6060F3EF97F9063FD17405FEFE70;
+			remoteInfo = "Pods-ios-SwiftBoilerplate";
+		};
 		FE227CB66B8147E47B954E9B526DE399 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -709,6 +719,7 @@
 		13773E808F11C47B256B50AACD26AD88 /* Moya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-umbrella.h"; sourceTree = "<group>"; };
 		138C4558670B44CA4529F55BB275F74A /* Result-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Result-Info.plist"; sourceTree = "<group>"; };
 		13A2ECE45B4E81236ADA4F96898B7BA7 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		14C2A10FBD59ED30852D6A03EBA22C45 /* Pods-ios-SwiftBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-SwiftBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		14C6126BE9C588472B36623B5440076D /* sync_permission.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_permission.cpp; path = Realm/ObjectStore/src/sync/sync_permission.cpp; sourceTree = "<group>"; };
 		166C8E196C22A85756766036B1361541 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		1679909148EADCCA0296D1024916207C /* AutoRotatingFileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoRotatingFileDestination.swift; path = Sources/XCGLogger/Destinations/AutoRotatingFileDestination.swift; sourceTree = "<group>"; };
@@ -721,9 +732,9 @@
 		1815966DBD8B7D74EFBF34CA87C9A1A0 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Sources/Moya/Plugin.swift; sourceTree = "<group>"; };
 		18167DC56816A1DF8844E43B8925CFDE /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
 		181FE7E36B4177069ED0071B289775F4 /* collection_change_builder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_change_builder.cpp; path = Realm/ObjectStore/src/impl/collection_change_builder.cpp; sourceTree = "<group>"; };
+		18316B71117BC77B23B4216F11C48A4E /* Pods-ios-SwiftBoilerplateMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-SwiftBoilerplateMockTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1835226F0622C2607382F7989D8D093A /* RealmCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmCollection.swift; path = RealmSwift/RealmCollection.swift; sourceTree = "<group>"; };
 		1844736E046D2E0D75CBF12E0A37481D /* RLMMigration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration.h; path = include/RLMMigration.h; sourceTree = "<group>"; };
-		193C8874AB4865B7A47ED21AEAE0C201 /* Pods-ios-SwiftBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-SwiftBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		196F56362E7B67396EC64CB464109686 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
 		19DED034D3B3E72DD6B26854E22BE002 /* RLMListBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMListBase.h; path = include/RLMListBase.h; sourceTree = "<group>"; };
 		1A188F17DFE3E9EDDE51578E9C62C0E1 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
@@ -744,6 +755,7 @@
 		1E9ADF55492876F44C02F6035C77F0F8 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
 		1F719F5B7A11E6D316846DBF232B1B46 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		205D48CDAAE9E6C2BA46CCF20CE323BA /* RLMRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm.h; path = include/RLMRealm.h; sourceTree = "<group>"; };
+		2089F1DFF823B59D6D26133D142149F9 /* Pods-ios-SwiftBoilerplate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-SwiftBoilerplate-acknowledgements.plist"; sourceTree = "<group>"; };
 		20A3FFB053C1F516A3E8D2F733D35963 /* RLMObjectStore.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectStore.mm; path = Realm/RLMObjectStore.mm; sourceTree = "<group>"; };
 		228A6F1F5AA07035608A5DDB07A9A558 /* RLMSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema.h; path = include/RLMSchema.h; sourceTree = "<group>"; };
 		22C3E62D38277B87B8A326C86DC5F0F2 /* Locksmith.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Locksmith.xcconfig; sourceTree = "<group>"; };
@@ -772,7 +784,6 @@
 		301355A6E543650C2BC32A9E6D19ECCA /* transact_log_handler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = transact_log_handler.cpp; path = Realm/ObjectStore/src/impl/transact_log_handler.cpp; sourceTree = "<group>"; };
 		3083897020E510F1D8796C7CC98FFC1D /* RLMObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject.h; path = include/RLMObject.h; sourceTree = "<group>"; };
 		312C4EFF01319D48B968B52C7F4E1662 /* RealmSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-umbrella.h"; sourceTree = "<group>"; };
-		31B759BCF9AF3BF42ACD0207F546F7D8 /* Pods-ios-SwiftBoilerplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ios-SwiftBoilerplate.modulemap"; sourceTree = "<group>"; };
 		33473D33A5D251D49EC8CD7432DB8AF1 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		33889FA8FBA6220A139220B3E42F53E0 /* ThreadSafeReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadSafeReference.swift; path = RealmSwift/ThreadSafeReference.swift; sourceTree = "<group>"; };
 		340E9DD5993B543A405C29229355E80A /* UINib+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "Library/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
@@ -783,6 +794,7 @@
 		3715C7E35D17009C20D1E3B2DCC45F79 /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = Library/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
 		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		376903866B06ADC93B19AC44ABC70D22 /* LogDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogDetails.swift; path = Sources/XCGLogger/Misc/LogDetails.swift; sourceTree = "<group>"; };
+		37EB72B5FA681FADED76490561BF24EB /* Pods-ios-SwiftBoilerplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ios-SwiftBoilerplate.modulemap"; sourceTree = "<group>"; };
 		38971E57FA1937B0B123468338DB0EB8 /* sync_session.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_session.cpp; path = Realm/ObjectStore/src/sync/sync_session.cpp; sourceTree = "<group>"; };
 		39139C080F74EE3AB0D1CE57509762AD /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+NibResource.swift"; path = "Library/UIKit/UIViewController+NibResource.swift"; sourceTree = "<group>"; };
 		397493D491CC0612D38DC628F36EC5B8 /* ObjcExceptionBridging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjcExceptionBridging.modulemap; sourceTree = "<group>"; };
@@ -812,7 +824,6 @@
 		507F470257A4E1A389FCA228EF542F14 /* schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = schema.cpp; path = Realm/ObjectStore/src/schema.cpp; sourceTree = "<group>"; };
 		50D779F5DFE944E46611C47D758D1A78 /* Locksmith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locksmith.swift; path = Source/Locksmith.swift; sourceTree = "<group>"; };
 		50EDDCC35FD9872E5F6EE022D0A5ED36 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
-		510B6A84461A80F08E0F3C2AB79FD054 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-SwiftBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		5123875D0C986A67FE41B246648030C8 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/XCGLogger/Destinations/BaseDestination.swift; sourceTree = "<group>"; };
 		5191A2360D562979C04B6215BF783161 /* FilterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterProtocol.swift; path = Sources/XCGLogger/Filters/FilterProtocol.swift; sourceTree = "<group>"; };
 		51BB7DE8966204931BEAD5022FB6C89D /* RLMUpdateChecker.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUpdateChecker.mm; path = Realm/RLMUpdateChecker.mm; sourceTree = "<group>"; };
@@ -823,7 +834,6 @@
 		573DE11D38A3B8F8B6589B8E23A90F28 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		57E3AC9CECDBFB657A9995D480D5D4E2 /* XcodeColorsLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XcodeColorsLogFormatter.swift; path = Sources/XCGLogger/LogFormatters/XcodeColorsLogFormatter.swift; sourceTree = "<group>"; };
 		57FDB0F108FAFD5863DE4706E2B4AC57 /* ObjcExceptionBridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjcExceptionBridging.h; path = Sources/ObjcExceptionBridging/include/ObjcExceptionBridging.h; sourceTree = "<group>"; };
-		582AF255125AEC03220E7E0E9C33FA24 /* Pods-ios-SwiftBoilerplate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-SwiftBoilerplate-acknowledgements.markdown"; sourceTree = "<group>"; };
 		589D0DA8B6E2669C4BBA5BB72808B3C1 /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Library/Core/Validatable.swift; sourceTree = "<group>"; };
 		58C0A5CC63DC4730E4E00A9E16F5668C /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
 		5910B975A59D3D1712A185B7BFEB3BFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -841,11 +851,11 @@
 		614C5D4AD59EDFB905709B3D69D13075 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		627612522B37CDE5DCBF5BC13D144E01 /* Locksmith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Locksmith.h; path = Source/Locksmith.h; sourceTree = "<group>"; };
 		62BC90601A03AEF1674C54062C63C566 /* DevFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DevFilter.swift; path = Sources/XCGLogger/Filters/DevFilter.swift; sourceTree = "<group>"; };
+		62C0F479F2E503F33B0756C364293CF3 /* Pods-ios-SwiftBoilerplateMockTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-SwiftBoilerplateMockTests-dummy.m"; sourceTree = "<group>"; };
 		634EF867EF7EEB46B2232037C251B5AD /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		63E55045B33DCFAB99923609CA4A7149 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Moya/Task.swift; sourceTree = "<group>"; };
 		64459789A9BD104703F1D006067D7A7B /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema_Private.h; path = include/RLMObjectSchema_Private.h; sourceTree = "<group>"; };
 		64721BF6FBC73DE91BC85DE3DC2740A6 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
-		649FA53560A4F8278EDD485C996C12A1 /* Pods-ios-SwiftBoilerplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-SwiftBoilerplate-umbrella.h"; sourceTree = "<group>"; };
 		659ADEBD84746CBF289A64D2D912C6E3 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		65DF515D199DC3157F47BF13ADB013A2 /* object_schema.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_schema.cpp; path = Realm/ObjectStore/src/object_schema.cpp; sourceTree = "<group>"; };
 		66196E5526472454C978C6E15D521796 /* realm_coordinator.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = realm_coordinator.cpp; path = Realm/ObjectStore/src/impl/realm_coordinator.cpp; sourceTree = "<group>"; };
@@ -876,6 +886,7 @@
 		715BB555003369EC2B9ECC5302FA613D /* LocksmithInternetAuthenticationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocksmithInternetAuthenticationType.swift; path = Source/LocksmithInternetAuthenticationType.swift; sourceTree = "<group>"; };
 		71A6405C89340D393C54C4ECB13CEBDA /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
 		72021A9F1531A8BA0B587BFB562EB529 /* DTTimePeriodCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodCollection.h; path = DateTools/DateTools/DTTimePeriodCollection.h; sourceTree = "<group>"; };
+		723BD25C19AB36A6ED965D163735A1C7 /* Pods-ios-SwiftBoilerplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-SwiftBoilerplate-umbrella.h"; sourceTree = "<group>"; };
 		7295F2F7E98FF4AFB02B47A2FF13D5CA /* Locksmith-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Locksmith-umbrella.h"; sourceTree = "<group>"; };
 		72CDF2644137512A1ACDA09F66E29A0D /* DTTimePeriod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriod.h; path = DateTools/DateTools/DTTimePeriod.h; sourceTree = "<group>"; };
 		737A0044B41EC908358EC71AD3FB7BF0 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Moya/Response.swift; sourceTree = "<group>"; };
@@ -893,7 +904,6 @@
 		7C8300662B083FB9D299E6F979D55104 /* XCGLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCGLogger-dummy.m"; sourceTree = "<group>"; };
 		7D225E656B2EAB0FE9DAD33C66EF4645 /* MultiTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiTarget.swift; path = Sources/Moya/MultiTarget.swift; sourceTree = "<group>"; };
 		7D7964AE5BFDE933C6E576245AC2F806 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		7D81465683A9ABA00FDAD74A756083E3 /* Pods-ios-SwiftBoilerplate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-SwiftBoilerplate-Info.plist"; sourceTree = "<group>"; };
 		7DA31E4B239025741E3A2AA1F87127A2 /* list.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.cpp; path = Realm/ObjectStore/src/list.cpp; sourceTree = "<group>"; };
 		7DD73C5599A6242C0A05C07C55C1794B /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Library/Core/FileResource.swift; sourceTree = "<group>"; };
 		7E114FBD4ED1C255E76051FA8C2508A7 /* UIFont+FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+FontResource.swift"; path = "Library/UIKit/UIFont+FontResource.swift"; sourceTree = "<group>"; };
@@ -907,6 +917,7 @@
 		81BE3DE6596F7B21F00296C2604F0E05 /* RLMObjectSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMObjectSchema.mm; path = Realm/RLMObjectSchema.mm; sourceTree = "<group>"; };
 		83A5D6373064F29BCDFAC61428F81B46 /* DTError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTError.m; path = DateTools/DateTools/DTError.m; sourceTree = "<group>"; };
 		845CCC883B5FB310DF929CBACCC99E98 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		84E494C0A9BD2BC2E7D6614ECDB01032 /* Pods_ios_SwiftBoilerplateMockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_SwiftBoilerplateMockTests.framework; path = "Pods-ios-SwiftBoilerplateMockTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8689045703C45A1CEA362FBF3004F360 /* ObjcExceptionBridging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcExceptionBridging-prefix.pch"; sourceTree = "<group>"; };
 		86F3FA7F3022DF499F03FD6651120AF1 /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
 		870E310797CE8562A71232FC663C8F67 /* TestDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestDestination.swift; path = Sources/XCGLogger/Destinations/TestDestination.swift; sourceTree = "<group>"; };
@@ -918,9 +929,11 @@
 		89E3A73FB31DABE0F1F52D9F5AF1B4DB /* RealmSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-prefix.pch"; sourceTree = "<group>"; };
 		8A722F353E326A90C638B2F08EA8D6EA /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		8B67CA82F8F3085947947620285921E2 /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
+		8B6859F5730D74A1B34F8ACFAE2346B0 /* Pods-ios-SwiftBoilerplateMockTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-SwiftBoilerplateMockTests-umbrella.h"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC3A9519C31C6631EBEAAF152EB6464 /* R.swift.Library-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R.swift.Library-Info.plist"; sourceTree = "<group>"; };
 		8D2D1E89665D02893B7511C8E7FA06FE /* work_queue.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = work_queue.cpp; path = Realm/ObjectStore/src/sync/impl/work_queue.cpp; sourceTree = "<group>"; };
+		8DB57112D70C3569A8C7B940E4A8CCD5 /* Pods-ios-SwiftBoilerplate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-SwiftBoilerplate-frameworks.sh"; sourceTree = "<group>"; };
 		8EFC59ED96F55C8C8745280CD64AAAF0 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
 		8F6320EAC5263801998CE09B3C80FCB5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		904D5EE93FE924CD4ABA4A0FE4F09D28 /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
@@ -948,6 +961,7 @@
 		9C2C1B028CC2D97E2D49E66DF98A175F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		9C351E40125971510E64BD9026E4FBDC /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		9CC7DDCE94DB1AB285D42F4023BB713D /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D747690E14A1DFE52D2277A289BC5B0 /* Pods-ios-SwiftBoilerplateMockTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-SwiftBoilerplateMockTests-Info.plist"; sourceTree = "<group>"; };
 		9D7620654EF2527AA061DDC396A0CECC /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E20BBAFDCFFA3CA91C2ABF06A016EB9 /* XCGLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCGLogger-prefix.pch"; sourceTree = "<group>"; };
@@ -965,15 +979,14 @@
 		A8325EC9FEB02A0E45F71514980D2A94 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
 		A83AEB82F1F6BD13E231692B00483576 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		A868C19794A5777D5F75A2C6F8234C1E /* RLMObjectSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema.h; path = include/RLMObjectSchema.h; sourceTree = "<group>"; };
-		A8D342B386460DFB6CA4FBFDB4743510 /* Pods-ios-SwiftBoilerplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-SwiftBoilerplate-dummy.m"; sourceTree = "<group>"; };
 		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9598DF54B7C626A0A6202408551006E /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; path = "Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		A9780E6412EAB77934E8776903363892 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		AAFCF6682DB1E407CD20D6A0E74112E0 /* Pods-ios-SwiftBoilerplateMockTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ios-SwiftBoilerplateMockTests.modulemap"; sourceTree = "<group>"; };
 		AC475C558148D203DAC28D6E9CC9A55A /* URL+Moya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Moya.swift"; path = "Sources/Moya/URL+Moya.swift"; sourceTree = "<group>"; };
 		AC9DC62B99CA6D6134455031953B98D2 /* XCGLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XCGLogger-Info.plist"; sourceTree = "<group>"; };
 		ACBBE25A8F644021CD64CA46002468AC /* Sync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sync.swift; path = RealmSwift/Sync.swift; sourceTree = "<group>"; };
 		ACBCD97EE2A8CF76C11157AE05BCA209 /* RLMObject_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject_Private.h; path = include/RLMObject_Private.h; sourceTree = "<group>"; };
-		ADB1FE28A01A1BE14BCB6A14AC4C11A8 /* Pods-ios-SwiftBoilerplate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-SwiftBoilerplate-frameworks.sh"; sourceTree = "<group>"; };
 		ADBCA8B5F226D2ED173A80E3E860C732 /* RLMAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMAccessor.h; path = include/RLMAccessor.h; sourceTree = "<group>"; };
 		AE6505B98854F90AB197D82BC86D7303 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		AF38B797F4460859D10628F9A4EF8297 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -986,6 +999,7 @@
 		B471EFFA861E8EABB5656CCCB20995E7 /* partial_sync.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = partial_sync.cpp; path = Realm/ObjectStore/src/sync/partial_sync.cpp; sourceTree = "<group>"; };
 		B4B8443865BCAEC1942F5DC59A7DBCF8 /* Locksmith-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Locksmith-dummy.m"; sourceTree = "<group>"; };
 		B620A995E24E645764FCDE7231CE9015 /* Locksmith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Locksmith.framework; path = Locksmith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B32FA27DDF0567E3C1DAC417E0C5A4 /* Pods-ios-SwiftBoilerplateMockTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-SwiftBoilerplateMockTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6D61C1E53B0B66C1E82AF7B5310B96E /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		B71B9EE6F6E50DFBBE098C4044D5858A /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		B79B8226A2931997E5BACAC5BFEE7E7C /* external_commit_helper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = external_commit_helper.cpp; path = Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp; sourceTree = "<group>"; };
@@ -1009,8 +1023,10 @@
 		C39E5C7B6D6F2BA80FA984BAEC6DBCE5 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		C560391546EABA0C11D1107F31CAD2BC /* sync_config.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_config.cpp; path = Realm/ObjectStore/src/sync/sync_config.cpp; sourceTree = "<group>"; };
 		C65A1234324C4D2DC77401C6693B2B3F /* RLMObjectBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase.h; path = include/RLMObjectBase.h; sourceTree = "<group>"; };
+		C75F8E3D47BE206572D44012260E1E31 /* Pods-ios-SwiftBoilerplate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-SwiftBoilerplate-Info.plist"; sourceTree = "<group>"; };
 		C898EBBC00774D61F8E83D15CC2A74C3 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
 		C8E90E5E0D961580FF942416654E24AF /* RLMSyncUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUser.h; path = include/RLMSyncUser.h; sourceTree = "<group>"; };
+		C996641726DB7277D1C19F0C1AA475FF /* Pods-ios-SwiftBoilerplate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-SwiftBoilerplate-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C9EE6719422114B8511CF76744970044 /* PrePostFixLogFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrePostFixLogFormatter.swift; path = Sources/XCGLogger/LogFormatters/PrePostFixLogFormatter.swift; sourceTree = "<group>"; };
 		CA002CC26B8CA0C9135658EF3749305B /* ObjectiveCSupport+Sync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObjectiveCSupport+Sync.swift"; path = "RealmSwift/ObjectiveCSupport+Sync.swift"; sourceTree = "<group>"; };
 		CA12C840E957064ED480B359CB938604 /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
@@ -1021,11 +1037,11 @@
 		CDCF3934870C2A1DC1B6B513A19865C3 /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Library/Core/Identifier.swift; sourceTree = "<group>"; };
 		CE3F21B77267E8E55BB1BB5A33F126E1 /* RLMRealmConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration_Private.h; path = include/RLMRealmConfiguration_Private.h; sourceTree = "<group>"; };
 		CE558071065427441351DEB88DEFC21B /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		CF39A2A7C4AD3DE8322B4E6166F76E3E /* Pods-ios-SwiftBoilerplateMockTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-SwiftBoilerplateMockTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF5459301FE44ECD4E30AC2120BB90DB /* RLMRealmConfiguration+Sync.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "RLMRealmConfiguration+Sync.mm"; path = "Realm/RLMRealmConfiguration+Sync.mm"; sourceTree = "<group>"; };
 		CFCAE12C0233A48367BAD5AD0B9A925D /* RLMProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty.h; path = include/RLMProperty.h; sourceTree = "<group>"; };
 		CFD1D4330BC3572C9AD89E68E56AC597 /* NSDate+DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateTools.h"; path = "DateTools/DateTools/NSDate+DateTools.h"; sourceTree = "<group>"; };
 		D01CC3145B74B7131072489C9DC27E8D /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
-		D0EABB08CB9C9162B1A2D05173DD1C75 /* Pods-ios-SwiftBoilerplate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-SwiftBoilerplate-acknowledgements.plist"; sourceTree = "<group>"; };
 		D14415C18542A8657B583400B6FE9443 /* DTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTError.h; path = DateTools/DateTools/DTError.h; sourceTree = "<group>"; };
 		D14C2E362420FEB92D8F12057669682D /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Sources/Moya/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
 		D2015D12308FBBBA0E24AE1E918FEBF3 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
@@ -1062,6 +1078,7 @@
 		E6F736011E2B66CD42BD8019E2C1981E /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
 		E7BE27D9D538AC99E12E13625D8D6568 /* RLMThreadSafeReference.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMThreadSafeReference.mm; path = Realm/RLMThreadSafeReference.mm; sourceTree = "<group>"; };
 		E8FBDB1656472CD5347F4912B315A758 /* Realm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Realm-prefix.pch"; sourceTree = "<group>"; };
+		E9DD0E6A0EB03BA0E0F7827AC6C5624B /* Pods-ios-SwiftBoilerplateMockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-SwiftBoilerplateMockTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC2610712ADC10A08B869D009AEC34E7 /* RLMSyncCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncCredentials.h; path = include/RLMSyncCredentials.h; sourceTree = "<group>"; };
 		ED620163F8C169156008E6D14CCD2928 /* FileNameFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileNameFilter.swift; path = Sources/XCGLogger/Filters/FileNameFilter.swift; sourceTree = "<group>"; };
 		EE343AE33BDFE2C93C50B4FED15F350E /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
@@ -1080,6 +1097,7 @@
 		F2A371C916AADA15E32D2696356B2CDD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		F2AC030BDC10F52FBE2F5CD5D77CECB7 /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
 		F383B347BC22A7791598BFDA1A84C0D5 /* DateTools.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = DateTools/DateTools/DateTools.bundle; sourceTree = "<group>"; };
+		F3AC95F00A261B960142691E52AA4668 /* Pods-ios-SwiftBoilerplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-SwiftBoilerplate-dummy.m"; sourceTree = "<group>"; };
 		F3E870A1ED242330B6F10E0598AA8C67 /* RLMSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSchema.mm; path = Realm/RLMSchema.mm; sourceTree = "<group>"; };
 		F50B6F46658ACFE5D444F22F5559E950 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		F6700AC7E5E769208038D2CDEA164964 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
@@ -1092,6 +1110,7 @@
 		F9B8C11731D636C84ADE36C314518CA4 /* UserInfoHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInfoHelpers.swift; path = Sources/XCGLogger/Misc/Optional/UserInfoHelpers.swift; sourceTree = "<group>"; };
 		F9CFFD41A5A31B64C4B84A4B2C730142 /* Result.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.xcconfig; sourceTree = "<group>"; };
 		FA31BEA69E990050750854F0AD3A163A /* Data+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+FileResource.swift"; path = "Library/Foundation/Data+FileResource.swift"; sourceTree = "<group>"; };
+		FBD5085934ED04E8E873A8CB9E2DA565 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-SwiftBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		FC136C4EFF35D271050F83EB19361B73 /* RLMObjectBase_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Private.h; path = include/RLMObjectBase_Private.h; sourceTree = "<group>"; };
 		FC21E11599264BC8297EB97354A9423F /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCGLogger.framework; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7751052BFB1FCC376F4A8F8AD54E47 /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
@@ -1130,6 +1149,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0531D2ECFAED1869832D1960366BF51D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33152F679E6AEDBE921FC4146A115A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60876A201F991CF8E27C0E4215FFD709 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1406,29 +1433,29 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		50493878ACC0C4FE24E4FEB077E20BEF /* Pods-ios-SwiftBoilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				37EB72B5FA681FADED76490561BF24EB /* Pods-ios-SwiftBoilerplate.modulemap */,
+				C996641726DB7277D1C19F0C1AA475FF /* Pods-ios-SwiftBoilerplate-acknowledgements.markdown */,
+				2089F1DFF823B59D6D26133D142149F9 /* Pods-ios-SwiftBoilerplate-acknowledgements.plist */,
+				F3AC95F00A261B960142691E52AA4668 /* Pods-ios-SwiftBoilerplate-dummy.m */,
+				8DB57112D70C3569A8C7B940E4A8CCD5 /* Pods-ios-SwiftBoilerplate-frameworks.sh */,
+				C75F8E3D47BE206572D44012260E1E31 /* Pods-ios-SwiftBoilerplate-Info.plist */,
+				723BD25C19AB36A6ED965D163735A1C7 /* Pods-ios-SwiftBoilerplate-umbrella.h */,
+				FBD5085934ED04E8E873A8CB9E2DA565 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */,
+				14C2A10FBD59ED30852D6A03EBA22C45 /* Pods-ios-SwiftBoilerplate.release.xcconfig */,
+			);
+			name = "Pods-ios-SwiftBoilerplate";
+			path = "Target Support Files/Pods-ios-SwiftBoilerplate";
+			sourceTree = "<group>";
+		};
 		57BCC6ECEDE76DD344827ED0EA88CEF2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				90A7F7B8795B1F9CB32E1563206D4F36 /* .swift-version */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		57EE47B633EFD8D4C8EE8B0C7FD1E0AA /* Pods-ios-SwiftBoilerplate */ = {
-			isa = PBXGroup;
-			children = (
-				31B759BCF9AF3BF42ACD0207F546F7D8 /* Pods-ios-SwiftBoilerplate.modulemap */,
-				582AF255125AEC03220E7E0E9C33FA24 /* Pods-ios-SwiftBoilerplate-acknowledgements.markdown */,
-				D0EABB08CB9C9162B1A2D05173DD1C75 /* Pods-ios-SwiftBoilerplate-acknowledgements.plist */,
-				A8D342B386460DFB6CA4FBFDB4743510 /* Pods-ios-SwiftBoilerplate-dummy.m */,
-				ADB1FE28A01A1BE14BCB6A14AC4C11A8 /* Pods-ios-SwiftBoilerplate-frameworks.sh */,
-				7D81465683A9ABA00FDAD74A756083E3 /* Pods-ios-SwiftBoilerplate-Info.plist */,
-				649FA53560A4F8278EDD485C996C12A1 /* Pods-ios-SwiftBoilerplate-umbrella.h */,
-				510B6A84461A80F08E0F3C2AB79FD054 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */,
-				193C8874AB4865B7A47ED21AEAE0C201 /* Pods-ios-SwiftBoilerplate.release.xcconfig */,
-			);
-			name = "Pods-ios-SwiftBoilerplate";
-			path = "Target Support Files/Pods-ios-SwiftBoilerplate";
 			sourceTree = "<group>";
 		};
 		5F53304EC1E5515C9C7167D1BAC2AC85 /* SnapKit */ = {
@@ -1472,27 +1499,6 @@
 			);
 			name = SnapKit;
 			path = SnapKit;
-			sourceTree = "<group>";
-		};
-		60FCB81A303A4AE4A5587488A20CA9A8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				4AF171581392AD234F23BE913F0C22FE /* DateTools.framework */,
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
-				B620A995E24E645764FCDE7231CE9015 /* Locksmith.framework */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */,
-				1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */,
-				A329CACEA0FC9582A94CFC4D9A9A1B15 /* Pods_ios_SwiftBoilerplate.framework */,
-				921BE4A82C4A7A5C72A0C6F8B8FEF200 /* Realm.framework */,
-				437919EE08EC6BFCCBAC3BD346309742 /* RealmSwift.framework */,
-				0461B3F80FC05957690727254D64DB36 /* Result.framework */,
-				CA4E3B66CE4D02048C77392B64FD0ABB /* Rswift.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
-				FC21E11599264BC8297EB97354A9423F /* XCGLogger.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		67184DBD0C182A69FA5B9A44276820BE /* ObjcExceptionBridging */ = {
@@ -1569,6 +1575,28 @@
 			path = "../Target Support Files/ObjcExceptionBridging";
 			sourceTree = "<group>";
 		};
+		80B146AFCFE916CBBFAD348BA821D266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				4AF171581392AD234F23BE913F0C22FE /* DateTools.framework */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
+				B620A995E24E645764FCDE7231CE9015 /* Locksmith.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */,
+				1CAB16A12A28E8BE749202B03552307A /* ObjcExceptionBridging.framework */,
+				A329CACEA0FC9582A94CFC4D9A9A1B15 /* Pods_ios_SwiftBoilerplate.framework */,
+				84E494C0A9BD2BC2E7D6614ECDB01032 /* Pods_ios_SwiftBoilerplateMockTests.framework */,
+				921BE4A82C4A7A5C72A0C6F8B8FEF200 /* Realm.framework */,
+				437919EE08EC6BFCCBAC3BD346309742 /* RealmSwift.framework */,
+				0461B3F80FC05957690727254D64DB36 /* Result.framework */,
+				CA4E3B66CE4D02048C77392B64FD0ABB /* Rswift.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				FC21E11599264BC8297EB97354A9423F /* XCGLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		80DA635EE14C829FB5A34FB664864532 /* RealmSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -1636,14 +1664,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/XCGLogger";
-			sourceTree = "<group>";
-		};
-		9B4BCC3CA90449D2BD3BB26489BF64FF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				57EE47B633EFD8D4C8EE8B0C7FD1E0AA /* Pods-ios-SwiftBoilerplate */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A1363D6986A95D55BD7E8EF3680126DB /* Core */ = {
@@ -1732,6 +1752,22 @@
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
+		BBBCC3488E324AAEEA400B33ED532DEB /* Pods-ios-SwiftBoilerplateMockTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCF6682DB1E407CD20D6A0E74112E0 /* Pods-ios-SwiftBoilerplateMockTests.modulemap */,
+				CF39A2A7C4AD3DE8322B4E6166F76E3E /* Pods-ios-SwiftBoilerplateMockTests-acknowledgements.markdown */,
+				B6B32FA27DDF0567E3C1DAC417E0C5A4 /* Pods-ios-SwiftBoilerplateMockTests-acknowledgements.plist */,
+				62C0F479F2E503F33B0756C364293CF3 /* Pods-ios-SwiftBoilerplateMockTests-dummy.m */,
+				9D747690E14A1DFE52D2277A289BC5B0 /* Pods-ios-SwiftBoilerplateMockTests-Info.plist */,
+				8B6859F5730D74A1B34F8ACFAE2346B0 /* Pods-ios-SwiftBoilerplateMockTests-umbrella.h */,
+				18316B71117BC77B23B4216F11C48A4E /* Pods-ios-SwiftBoilerplateMockTests.debug.xcconfig */,
+				E9DD0E6A0EB03BA0E0F7827AC6C5624B /* Pods-ios-SwiftBoilerplateMockTests.release.xcconfig */,
+			);
+			name = "Pods-ios-SwiftBoilerplateMockTests";
+			path = "Target Support Files/Pods-ios-SwiftBoilerplateMockTests";
+			sourceTree = "<group>";
+		};
 		C39C1CFBF2E94C83A6E2CD53E141A1DC /* R.swift.Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -1812,8 +1848,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				976ACAEC89AD53F84A01563F60329713 /* Frameworks */,
 				479B4D840B2BE2BAA872F91D1FF321F9 /* Pods */,
-				60FCB81A303A4AE4A5587488A20CA9A8 /* Products */,
-				9B4BCC3CA90449D2BD3BB26489BF64FF /* Targets Support Files */,
+				80B146AFCFE916CBBFAD348BA821D266 /* Products */,
+				ED61E4030B84B393BB15097600F7D043 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1978,6 +2014,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RealmSwift";
+			sourceTree = "<group>";
+		};
+		ED61E4030B84B393BB15097600F7D043 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50493878ACC0C4FE24E4FEB077E20BEF /* Pods-ios-SwiftBoilerplate */,
+				BBBCC3488E324AAEEA400B33ED532DEB /* Pods-ios-SwiftBoilerplateMockTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		ED9AA5ADEF1F903D8B290828581B6E0A /* ObjcExceptionBridging */ = {
@@ -2223,6 +2268,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3C9504312E66D15E909F77C14E0C2DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8291FB6A182611CCD2C4B0072FFD6E3C /* Pods-ios-SwiftBoilerplateMockTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC0217EF101A5489B666AEE541C6748B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2323,6 +2376,25 @@
 			name = DateTools;
 			productName = DateTools;
 			productReference = 4AF171581392AD234F23BE913F0C22FE /* DateTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C660F66B1A38CCE4026D6ED33F8DA4F /* Pods-ios-SwiftBoilerplateMockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D4278973C93FA31589069CE00B2C6A /* Build configuration list for PBXNativeTarget "Pods-ios-SwiftBoilerplateMockTests" */;
+			buildPhases = (
+				E3C9504312E66D15E909F77C14E0C2DD /* Headers */,
+				BD279A5A1F101B37C4F08A089B89CCBE /* Sources */,
+				33152F679E6AEDBE921FC4146A115A7C /* Frameworks */,
+				1F22620B4ECAA2C465A8521F25E25943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA4B37901D6154EB098C779AD2CAB34 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-SwiftBoilerplateMockTests";
+			productName = "Pods-ios-SwiftBoilerplateMockTests";
+			productReference = 84E494C0A9BD2BC2E7D6614ECDB01032 /* Pods_ios_SwiftBoilerplateMockTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		68494F30B4A13F8E5E88BCCAEC25B0A4 /* Realm */ = {
@@ -2542,7 +2614,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 60FCB81A303A4AE4A5587488A20CA9A8 /* Products */;
+			productRefGroup = 80B146AFCFE916CBBFAD348BA821D266 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2555,6 +2627,7 @@
 				17F9141D333DA1A7BE5937F227221070 /* Moya */,
 				746615E9A06AABA6F288B49A10B63E10 /* ObjcExceptionBridging */,
 				B5CA6060F3EF97F9063FD17405FEFE70 /* Pods-ios-SwiftBoilerplate */,
+				4C660F66B1A38CCE4026D6ED33F8DA4F /* Pods-ios-SwiftBoilerplateMockTests */,
 				230984053C6652DFF510F450F21C5CF7 /* R.swift */,
 				B12748D8506CB48696BD90F2CA4F4E38 /* R.swift.Library */,
 				68494F30B4A13F8E5E88BCCAEC25B0A4 /* Realm */,
@@ -2569,6 +2642,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		13B653C20CC1D0B28162EEB3B2D27AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F22620B4ECAA2C465A8521F25E25943 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3021,6 +3101,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD279A5A1F101B37C4F08A089B89CCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E850B8B1843445D645EF52C53A917682 /* Pods-ios-SwiftBoilerplateMockTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2F84DC2E2DB3628B17B3841F2837477 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3110,6 +3198,12 @@
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
 			targetProxy = 103BE1E6967249E8C863A1D8D43935F4 /* PBXContainerItemProxy */;
+		};
+		ADA4B37901D6154EB098C779AD2CAB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-SwiftBoilerplate";
+			target = B5CA6060F3EF97F9063FD17405FEFE70 /* Pods-ios-SwiftBoilerplate */;
+			targetProxy = F00075AB4F5B51CD2591B3C4F4E29B92 /* PBXContainerItemProxy */;
 		};
 		B0F2CB59E7E3549DFC145C2E0973B40E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3553,6 +3647,45 @@
 			};
 			name = Release;
 		};
+		315FB6BCA1587762DDAD220F50E24148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DD0E6A0EB03BA0E0F7827AC6C5624B /* Pods-ios-SwiftBoilerplateMockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-SwiftBoilerplateMockTests/Pods-ios-SwiftBoilerplateMockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-SwiftBoilerplateMockTests/Pods-ios-SwiftBoilerplateMockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		398726D960DCA44CB9C7D5866A06AEDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68DBB53E8FFE29E1F68E5D127D7A17C0 /* R.swift.xcconfig */;
@@ -3606,7 +3739,7 @@
 		};
 		3E6E4568AF0D36438DB0AECF9DA731D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 510B6A84461A80F08E0F3C2AB79FD054 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = FBD5085934ED04E8E873A8CB9E2DA565 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3907,6 +4040,44 @@
 			};
 			name = Release;
 		};
+		922DB62ECC1B5968AD62F166766A1B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18316B71117BC77B23B4216F11C48A4E /* Pods-ios-SwiftBoilerplateMockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-SwiftBoilerplateMockTests/Pods-ios-SwiftBoilerplateMockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-SwiftBoilerplateMockTests/Pods-ios-SwiftBoilerplateMockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		96C891B8697E2C73BABA85937639DFF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D51DEE8A9244D7B4551C6ADE5555795 /* Alamofire.xcconfig */;
@@ -4123,7 +4294,7 @@
 		};
 		C5F8CF92AD2BC73E9254EFDA429C8528 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 193C8874AB4865B7A47ED21AEAE0C201 /* Pods-ios-SwiftBoilerplate.release.xcconfig */;
+			baseConfigurationReference = 14C2A10FBD59ED30852D6A03EBA22C45 /* Pods-ios-SwiftBoilerplate.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4511,6 +4682,15 @@
 			buildConfigurations = (
 				3E6E4568AF0D36438DB0AECF9DA731D2 /* Debug */,
 				C5F8CF92AD2BC73E9254EFDA429C8528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D4278973C93FA31589069CE00B2C6A /* Build configuration list for PBXNativeTarget "Pods-ios-SwiftBoilerplateMockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922DB62ECC1B5968AD62F166766A1B39 /* Debug */,
+				315FB6BCA1587762DDAD220F50E24148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

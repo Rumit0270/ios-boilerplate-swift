@@ -19,4 +19,9 @@ target 'ios-SwiftBoilerplate' do
   pod 'RealmSwift', '~> 4.3.1'
   pod 'XCGLogger', '6.1.0'
   pod 'XCGLogger/UserInfoHelpers', '6.1.0'
+  
+  target 'ios-SwiftBoilerplateMockTests' do
+    inherit! :search_paths
+  end
+
 end

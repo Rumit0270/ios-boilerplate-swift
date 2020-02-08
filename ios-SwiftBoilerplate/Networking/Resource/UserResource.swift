@@ -35,4 +35,11 @@ extension UserResource: TargetType {
         }
     }
     
+    var sampleData: Data {
+        switch self {
+        case .fetchUsers:
+            return getDataFromJSON(filename: "users")
+        }
+    }
+    
 }

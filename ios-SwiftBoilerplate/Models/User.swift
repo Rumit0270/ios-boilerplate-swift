@@ -14,7 +14,7 @@ struct User: Codable {
     let email: String
     let phone: String
     let website: String
-    var company: Company? = nil
+    var company: Company?
     
     init(with object: UserObject) {
         self.name = object.name

@@ -15,5 +15,5 @@ public class AppConfig: NSObject {
     }
     
     /// Realm filename to store data.
-    static let LocalDB = "test"
+    static let LocalDB = "tesst"
 }

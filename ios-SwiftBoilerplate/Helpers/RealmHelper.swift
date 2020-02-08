@@ -5,7 +5,6 @@
 //  Created by Mac on 2/8/20.
 //
 
-
 import Foundation
 import RealmSwift
 
