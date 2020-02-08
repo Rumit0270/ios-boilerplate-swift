@@ -16,6 +16,11 @@ PODS:
   - R.swift (5.0.3):
     - R.swift.Library (~> 5.0.0)
   - R.swift.Library (5.0.1)
+  - Realm (4.3.1):
+    - Realm/Headers (= 4.3.1)
+  - Realm/Headers (4.3.1)
+  - RealmSwift (4.3.1):
+    - Realm (= 4.3.1)
   - Result (4.1.0)
   - SnapKit (4.0.1)
   - SwiftLint (0.32.0)
@@ -35,6 +40,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 1.1.0)
   - Moya (~> 12.0.1)
   - R.swift (~> 5.0.3)
+  - RealmSwift (~> 4.3.1)
   - SnapKit (~> 4.0.1)
   - SwiftLint (~> 0.32.0)
   - XCGLogger (= 6.1.0)
@@ -52,6 +58,8 @@ SPEC REPOS:
     - ObjcExceptionBridging
     - R.swift
     - R.swift.Library
+    - Realm
+    - RealmSwift
     - Result
     - SnapKit
     - SwiftLint
@@ -68,11 +76,13 @@ SPEC CHECKSUMS:
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
   R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  Realm: 31dc40934081ef740f60feedc46d88473cbfeb40
+  RealmSwift: b5199e9a41f67b99f51acf6874a6166f5fbe93d1
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
   XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
 
-PODFILE CHECKSUM: 4cf58c94d928cfd412d26750b85076d19691c169
+PODFILE CHECKSUM: 5d3d84a9e04ed547c440e5941c718c297759d87d
 
 COCOAPODS: 1.8.4

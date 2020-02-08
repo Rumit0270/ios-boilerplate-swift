@@ -13,4 +13,7 @@ public class AppConfig: NSObject {
     struct DeploymentType {
         static let host = APIURL.development
     }
+    
+    /// Realm filename to store data.
+    static let LocalDB = "test"
 }

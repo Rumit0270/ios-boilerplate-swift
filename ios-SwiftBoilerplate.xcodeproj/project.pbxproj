@@ -68,6 +68,7 @@
 		04F88BCA23EEAEEA008CEE4D /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BC923EEAEEA008CEE4D /* PlistReader.swift */; };
 		04F88BCC23EEB12B008CEE4D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCB23EEB12B008CEE4D /* String+Extensions.swift */; };
 		04F88BCE23EEB14D008CEE4D /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCD23EEB14D008CEE4D /* Collection+Extensions.swift */; };
+		04F88BD023EEB396008CEE4D /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F88BCF23EEB396008CEE4D /* RealmHelper.swift */; };
 		EB6FD599812C5E6B2BC6DDC6 /* Pods_ios_SwiftBoilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +136,7 @@
 		04F88BC923EEAEEA008CEE4D /* PlistReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
 		04F88BCB23EEB12B008CEE4D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		04F88BCD23EEB14D008CEE4D /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		04F88BCF23EEB396008CEE4D /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		252585ABB2A11EDB0652131C /* Pods_ios_SwiftBoilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_SwiftBoilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2882105D970A51E5376134CE /* Pods-ios-SwiftBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		FE19CBDB1A0CB034F7292A16 /* Pods-ios-SwiftBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-SwiftBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-ios-SwiftBoilerplate/Pods-ios-SwiftBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,11 +197,11 @@
 				0422D02823BF4E0B00211F9E /* Models */,
 				0422D02723BF4DCE00211F9E /* Storyboards */,
 				0422D02623BF4DA000211F9E /* ViewControllers */,
-				0422D00223BD9BC600211F9E /* AppDelegate.swift */,
-				0422D04A23C2F7A300211F9E /* R.generated.swift */,
 				0422D00923BD9BC800211F9E /* Assets.xcassets */,
 				0422D00E23BD9BC800211F9E /* Info.plist */,
 				0422D05823C4320900211F9E /* en.strings */,
+				0422D04A23C2F7A300211F9E /* R.generated.swift */,
+				0422D00223BD9BC600211F9E /* AppDelegate.swift */,
 				0422D06123C494AF00211F9E /* AppConfig.swift */,
 			);
 			path = "ios-SwiftBoilerplate";
@@ -259,6 +261,7 @@
 				0422D09023C6DD0A00211F9E /* Logger.swift */,
 				0422D0D123C7427D00211F9E /* KeyChainHandler.swift */,
 				04F88BC923EEAEEA008CEE4D /* PlistReader.swift */,
+				04F88BCF23EEB396008CEE4D /* RealmHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -600,6 +603,7 @@
 				0422D13C23CED0F900211F9E /* Date+Extensions.swift in Sources */,
 				0422D10123CC2F8B00211F9E /* AuthService.swift in Sources */,
 				0422D08223C5E55D00211F9E /* MoreViewController.swift in Sources */,
+				04F88BD023EEB396008CEE4D /* RealmHelper.swift in Sources */,
 				0422D08723C5E8F300211F9E /* AppNavigator.swift in Sources */,
 				0422D08523C5E81C00211F9E /* MainTabbarRoutes.swift in Sources */,
 				0422D13623CDA87E00211F9E /* User.swift in Sources */,

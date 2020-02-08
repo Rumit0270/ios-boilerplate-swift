@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RealmSwift
 import IQKeyboardManagerSwift
 
 @UIApplicationMain
@@ -17,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         customizeTabBarItems()
+        configureDefaultRealm()
         return true
     }
     
@@ -52,6 +54,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSAttributedString.Key.font: UIFont.appFont(type: AppFont.semibold, size: 14),
             NSAttributedString.Key.foregroundColor: UIColor.white
             ], for: .normal)
-        
     }
+    
+    private func configureDefaultRealm() {
+        // Define configurations for migrations if necessary
+        var config = Realm.Configuration(
+            schemaVersion: 0,
+            deleteRealmIfMigrationNeeded: true
+        )
+        config.fileURL = config.fileURL!.deletingLastPathComponent().appendingPathComponent("\(AppConfig.LocalDB).realm")
+        Realm.Configuration.defaultConfiguration = config
+    }
+
+    private func logReamFileURL() {
+        // swiftlint:disable all
+        let realm = try! Realm()
+        logger.info("Realm configuration file is located at: \(realm.configuration.fileURL!)")
+    }
+
 }

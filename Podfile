@@ -16,6 +16,7 @@ target 'ios-SwiftBoilerplate' do
   pod 'DateTools', '~> 2.0.0'
   pod 'DeviceKit', '~> 1.3'
   pod 'Locksmith', '~> 4.0.0'
+  pod 'RealmSwift', '~> 4.3.1'
   pod 'XCGLogger', '6.1.0'
   pod 'XCGLogger/UserInfoHelpers', '6.1.0'
 end

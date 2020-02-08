@@ -34,12 +34,5 @@ extension UserResource: TargetType {
             return .requestPlain
         }
     }
-
-    var headers: [String: String]? {
-        switch self {
-        case .fetchUsers:
-            return self.getHeaders()
-        }
-    }
     
 }
